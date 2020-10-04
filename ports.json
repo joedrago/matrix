@@ -1,0 +1,18 @@
+{
+    "title": "Downstairs",
+    "inputs": [
+        { "name": "Chromecast", "id": 8 },
+        { "name": "Kid PS4", "id": 2 },
+        { "name": "Dad PS4", "id": 5 },
+        { "name": "Wii U", "id": 1 },
+        { "name": "PS3", "id": 3 },
+        { "name": "XB1X", "id": 4 }
+    ],
+
+    "outputs": [
+        { "name": "Main TV", "id": 2, "default": true },
+        { "name": "Left TV", "id": 1 },
+        { "name": "Right TV", "id": 3 },
+        { "name": "Rear TV", "id": 4 }
+    ]
+}

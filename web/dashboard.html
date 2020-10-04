@@ -1,0 +1,83 @@
+<html>
+<style>
+body, html {
+    background-color: #000022;
+    color: white;
+
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+
+    color: #aaffaa;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 4em;
+}
+
+.smallheader {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #888;
+    font-size: 3em;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.button {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 20px;
+
+    background-color: #222222;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.outputbutton {
+}
+
+.inputbutton {
+}
+
+.selectedbutton {
+    background-color: #003300;
+}
+
+</style>
+<body>
+
+<div id="main"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="dashboard.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+</body>
+</html>
