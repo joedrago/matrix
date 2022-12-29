@@ -2,11 +2,13 @@
     "title": "Downstairs",
     "inputs": [
         { "name": "Chromecast", "id": 8 },
+        { "name": "PS5", "id": 7 },
+        { "name": "Steam Deck", "id": 4 },
+        { "name": "XBSX", "id": 6 },
         { "name": "Kid PS4", "id": 2 },
         { "name": "Dad PS4", "id": 5 },
         { "name": "Wii U", "id": 1 },
-        { "name": "PS3", "id": 3 },
-        { "name": "XB1X", "id": 4 }
+        { "name": "PS3", "id": 3 }
     ],
 
     "outputs": [

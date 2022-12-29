@@ -147,8 +147,8 @@
       return res.send("MATRIX: wat");
     });
     app.use(express.static('web'));
-    return httpServer.listen(3005, '127.0.0.1', function() {
-      return console.log('listening on 127.0.0.1:3005');
+    return httpServer.listen(3005, function() {
+      return console.log('listening on port 3005');
     });
   };
 

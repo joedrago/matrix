@@ -107,7 +107,7 @@ main = (argv) ->
 
   app.use(express.static('web'))
 
-  httpServer.listen 3005, '127.0.0.1', ->
-    console.log('listening on 127.0.0.1:3005')
+  httpServer.listen 3005, ->
+    console.log('listening on port 3005')
 
 module.exports = main
